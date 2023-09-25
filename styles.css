@@ -1,0 +1,146 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #333;
+    color: #fff;
+}
+
+header {
+    background-color: #222;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #ff5722; /* Orange color for a bold touch */
+}
+
+header p {
+    font-size: 18px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    background-color: #222;
+    padding: 10px 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+section {
+    background-color: #444;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+}
+
+footer {
+    text-align: center;
+    background-color: #222;
+    color: #fff;
+    padding: 10px 0;
+}
+
+/* Add a macho border to sections */
+section {
+    border: 2px solid #ff5722;
+}
+
+/* Style links with a bold macho effect */
+a {
+    text-decoration: none;
+    color: #ff5722; /* Orange color for links */
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #f44336; /* Darker orange on hover */
+}
+
+/* Add a macho hover effect to buttons */
+button {
+    background-color: #ff5722; /* Orange color for buttons */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #f44336; /* Darker orange on hover */
+}
+
+/* Style the portfolio section */
+#portfolio {
+    text-align: center;
+}
+
+.project {
+    background-color: #555;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.project h3 {
+    color: #ff5722;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.project p {
+    font-size: 18px;
+}
+
+/* Add media queries for responsive design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 24px;
+    }
+    header p {
+        font-size: 16px;
+    }
+    nav ul li a {
+        font-size: 16px;
+    }
+    section {
+        padding: 10px;
+        margin: 10px;
+    }
+    .project {
+        padding: 10px;
+        margin: 10px;
+    }
+}
